@@ -71,6 +71,11 @@ a{
   color: #ffffff;
   text-decoration: none;
 }
+h1{
+  font-size: 10rem;
+  font-weight: 300;
+  text-align: center;
+}
 .cartIcon{
   width: 2rem;
   height: 2rem;
