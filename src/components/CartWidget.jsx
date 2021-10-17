@@ -4,7 +4,7 @@ function CartWidget() {
     return (
         <>
         <div>
-           <img className="cartIcon" src="././public/media/shopping-cart.png" alt="carrito"/> 
+           <a href="#"><img className="cartIcon" src="https://image.flaticon.com/icons/png/512/1244/1244022.png" alt="carrito"/></a> 
         </div>
         </>
     )
