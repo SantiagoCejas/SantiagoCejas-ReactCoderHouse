@@ -12,7 +12,14 @@ const Navbar = () =>{
                 <a href="index.html">Mi Tienda</a>
             </div>
             <div>    
-                <ItemListContainer />
+            <div>
+                <ul className = "itemList">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
             </div>
             <div>
                 <CartWidget />

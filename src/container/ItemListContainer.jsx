@@ -1,18 +1,11 @@
 import React from 'react'
 
-function ItemListContainer() {
+
+function ItemListContainer({greeting}) {
     return (
-        <>
-       <div>
-            <ul className = "itemList">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
+        <div>
+            <h1>{greeting}</h1>
         </div>
-        </>
     )
 }
-
 export default ItemListContainer
