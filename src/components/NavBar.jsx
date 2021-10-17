@@ -7,9 +7,10 @@ const Navbar = () =>{
             <ul>
                 <li>Home</li>
                 <li>Productos</li>
-                <li><Contacto></Contacto></li>
+                <li>Contacto</li>
             </ul>
         </nav>
    </header> 
     );
 };
+export default Navbar;
