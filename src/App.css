@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+li{
+  color: #ffffff;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  background-color: #3d0101;
+  width: 100%;
+  justify-content: space-around;
+
+}
+.imgLogo{
+  width: 3rem;
+  height: 3rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.itemList{
+  justify-content: space-around;
+  align-content: space-around;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+li{
+  padding-left: 1rem;
+}
+a{
+  color: #ffffff;
+  text-decoration: none;
+}

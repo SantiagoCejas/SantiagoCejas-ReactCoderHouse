@@ -1,14 +1,19 @@
 import React from "react";
-
+import ItemListContainer from "../container/ItemListContainer";
+import CartWidget from "./CartWidget";
 const Navbar = () =>{
     return(
     <header className="header">
         <nav className ="navbar">
-            <ul>
-                <li>Home</li>
-                <li>Productos</li>
-                <li>Contacto</li>
-            </ul>
+            <div>
+                <img className ="imgLogo" src="../../public\media\wine.png" alt ="Logo marca"/>
+            </div>
+            <div>    
+                <ItemListContainer />
+            </div>
+            <div>
+            <CartWidget />
+            </div>
         </nav>
    </header> 
     );
