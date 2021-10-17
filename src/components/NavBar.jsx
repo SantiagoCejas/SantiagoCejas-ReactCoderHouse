@@ -5,14 +5,17 @@ const Navbar = () =>{
     return(
     <header className="header">
         <nav className ="navbar">
-            <div>
-                <img className ="imgLogo" src="../../public\media\wine.png" alt ="Logo marca"/>
+            <div className="contentNav">
+                <a href="index.html">
+                    <img className ="imgLogo" src="https://cdn-icons-png.flaticon.com/512/2553/2553705.png" alt ="Logo marca"/>
+                 </a>
+                <a href="index.html">Mi Tienda</a>
             </div>
             <div>    
                 <ItemListContainer />
             </div>
             <div>
-            <CartWidget />
+                <CartWidget />
             </div>
         </nav>
    </header> 
