@@ -76,6 +76,9 @@ h1{
   font-weight: 300;
   text-align: center;
 }
+body{
+  background-color: black;
+}
 .cartIcon{
   width: 2rem;
   height: 2rem;
@@ -91,25 +94,41 @@ h1{
   flex-direction: row;
   align-items: center;
 }
+.contenedorList{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr;
+}
+
 .item{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 2fr;
-  background-image: url(media/corchos.jpg);
-  max-width: 50%;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  max-width: 100%;
+  margin: 1rem 1rem 1rem 1rem;
+  border-radius: 20px;
+  background-color: #ffffff;
 
 }
   .item img{
-    max-width: 50%;
+    max-width: 90%;
     align-self: center;
-
+    margin: 1rem 1rem 1rem 1rem;
   }
-.contenedorList{
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  padding: 1rem 1rem 1rem 1rem;
-  max-height: 50%;
-  align-content: center;
-  justify-content: center;
+.itemDetalle{
+  background-image: url(media/copa_toneles.jpg);
+  background-size: cover;
+  max-height: 100%;
+  margin:1rem 0rem 1rem 0rem;  
+}
+h2{
+  color: #ffffff;
+}
+h3{
+  color:#ffffff;
+}
+p{
+  color:#ffffff;  
 }
