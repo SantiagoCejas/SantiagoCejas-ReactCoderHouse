@@ -21,7 +21,12 @@ const ItemListContainer = (props)=>{
     if (cargando){
         return(
             <div>
-                {<h2>Cargando productos</h2>}
+                {<>
+                    <div className="cargando">
+                        <h2>Cargando productos</h2>
+                    </div>
+                </> 
+                    }
             </div>
         )
     } else {
@@ -30,6 +35,5 @@ const ItemListContainer = (props)=>{
         {<ItemList productos = {productos} />}
         </div>
     )
-}
-}
+}}
 export default ItemListContainer

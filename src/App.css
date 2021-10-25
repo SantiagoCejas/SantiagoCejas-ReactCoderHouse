@@ -98,6 +98,9 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 2fr 2fr;
+  max-width: 90%;
+  margin:2rem 2rem 2rem 2rem;
+  padding:2rem 2rem 2rem 2rem ;
 }
 
 .item{
@@ -128,7 +131,9 @@ h2{
 }
 h3{
   color:#ffffff;
+  font-size: 3rem
 }
 p{
-  color:#ffffff;  
+  color:#ffffff;
+  font-size: 2rem;
 }

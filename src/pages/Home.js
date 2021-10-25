@@ -6,7 +6,7 @@ const Home = () =>{
     return(
         <>
             <Navbar/>
-            <ItemListContainer titulo="Vinería"/>
+            <ItemListContainer/>
         </>
     );
 };
