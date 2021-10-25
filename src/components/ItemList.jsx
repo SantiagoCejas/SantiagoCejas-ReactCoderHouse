@@ -1,17 +1,17 @@
 import React from 'react';
-import item from './Item'
+import Item from './Item'
+import productosStock from './db/db';
 
-function ItemList() {
+const ItemList=({productos}) => {
     return (
-        <div>
-                <ul className = "itemList">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Ofertas</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-        </div>
-    )
+        <>
+            <div className="contenedorList">
+                {productos.map((producto) =>
+                    <Item key={producto.id} name={producto.name} grape={producto.grape} price={producto.price} image={producto.image}/>
+                                )
+                } 
+            </div>
+        </>)
 }
 
 export default ItemList

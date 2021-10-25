@@ -1,9 +1,16 @@
 import React from 'react'
 
-function Item() {
+const Item =({name, grape, price, image})=> {
     return (
-        <div>
-            
+        <div className="item">
+            <div>
+                <h3>{name}</h3>
+                <p>{grape}</p>
+                <p>${price}</p>
+            </div>
+            <div>
+                <img src={image} alt={name} />
+            </div>
         </div>
     )
 }
