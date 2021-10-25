@@ -17,12 +17,19 @@ const ItemListContainer = (props)=>{
             })
     },[productos]);
 
-    return(
-        <div>
-            <h1>{props.titulo}</h1>.
-            {cargando ? <h2>Cargando productos..</h2>: <ItemList productos = {productos} />}
-        </div>
 
+    if (cargando){
+        return(
+            <div>
+                {<h2>Cargando productos</h2>}
+            </div>
+        )
+    } else {
+        return(
+            <div>
+        {<ItemList productos = {productos} />}
+        </div>
     )
+}
 }
 export default ItemListContainer
